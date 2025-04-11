@@ -6,7 +6,7 @@ import Header from "@/components/Header";
 import { getProducts } from "@/data/products";
 import { Product as ProductType } from "@/types";
 import { useCart } from "@/hooks/use-cart";
-import { toast } from "@/components/ui/use-toast";
+import { toast } from "@/hooks/use-toast";
 import { useThemeColors, applyOpacity } from "@/hooks/use-theme-colors";
 import { Separator } from "@/components/ui/separator";
 

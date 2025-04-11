@@ -20,7 +20,8 @@ import {
   DialogTitle,
   DialogFooter,
 } from "@/components/ui/dialog";
-import { toast } from "@/components/ui/use-toast";
+import { useTheme } from "@/hooks/use-theme";
+import { toast } from "@/hooks/use-toast";
 
 const Header = () => {
   const { 
